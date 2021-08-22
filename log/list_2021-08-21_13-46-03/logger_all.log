@@ -1,0 +1,529 @@
+[0.339s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/josh/ibex/testing_trajectories']
+[0.339s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/josh/ibex/testing_trajectories'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f7e0a5cdaf0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f7e0a5cdaf0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7e0a4f9850>)
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.392s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/josh/ibex/testing_trajectories'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extension 'ros'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extensions ['cmake', 'python']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extension 'cmake'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extension 'python'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extensions ['python_setup_py']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories) by extension 'python_setup_py'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extension 'ros'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extensions ['cmake', 'python']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extension 'cmake'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extension 'python'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extensions ['python_setup_py']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/__pycache__) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/log) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/log) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/log) ignored
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extensions ['cmake', 'python']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox) by extension 'python_setup_py'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extension 'ros'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extensions ['cmake', 'python']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extension 'cmake'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extension 'python'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extensions ['python_setup_py']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/__pycache__) by extension 'python_setup_py'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel) by extension 'python_setup_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extension 'cmake'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extension 'python'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extensions ['python_setup_py']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/Dynamixel/dynamixel_sdk) by extension 'python_setup_py'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extension 'ros'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extensions ['cmake', 'python']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extension 'python'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extensions ['python_setup_py']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot) by extension 'python_setup_py'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/PyPlot/__pycache__) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/ROS) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/VPython) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/__pycache__) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/backends/swift) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/blocks) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extension 'ros'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extensions ['cmake', 'python']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extension 'cmake'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extension 'python'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extensions ['python_setup_py']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/core) by extension 'python_setup_py'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extension 'ros'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extensions ['cmake', 'python']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extension 'cmake'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extension 'python'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extensions ['python_setup_py']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/examples) by extension 'python_setup_py'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extensions ['python_setup_py']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile) by extension 'python_setup_py'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/mobile/__pycache__) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extension 'ros'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extension 'cmake'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extension 'python'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extensions ['python_setup_py']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/DH/__pycache__) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extension 'ros'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extensions ['cmake', 'python']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extension 'cmake'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/ETS/__pycache__) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extension 'ros'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extensions ['cmake', 'python']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extension 'cmake'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extension 'python'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extensions ['python_setup_py']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF) by extension 'python_setup_py'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extension 'ros'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extensions ['cmake', 'python']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extension 'cmake'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extension 'python'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extensions ['python_setup_py']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/URDF/__pycache__) by extension 'python_setup_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/models/__pycache__) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extensions ['cmake', 'python']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot) by extension 'python_setup_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extension 'ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extensions ['cmake', 'python']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extension 'cmake'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/robot/__pycache__) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extension 'ros'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extension 'python'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/__pycache__) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extension 'ros'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extensions ['cmake', 'python']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/__pycache__) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests) by extension 'python_setup_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extension 'python'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extensions ['python_setup_py']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/urdf/tests/data) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extension 'ros'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extensions ['cmake', 'python']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extension 'cmake'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extensions ['python_setup_py']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro) by extension 'python_setup_py'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extension 'cmake'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extension 'python'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/__pycache__) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests) by extension 'python'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package '/home/josh/ibex/testing_trajectories/roboticstoolbox/tools/xacro/tests' with type 'cmake' and name 'tests'
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
