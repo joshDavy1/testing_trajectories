@@ -27,10 +27,11 @@ def generate_realistic_weed_locations(x0, x1, y0, y1, density, avg_cluster_size 
 
 if __name__ == "__main__":
     weed_locations = generate_weed_locations(0, 3, 0, 3, 3)
+    plt.subplot(1, 2, 1)
     plt.title("Uniformly Distributed Weeds")
     plt.plot(weed_locations[0, :], weed_locations[1, :], 'bx')
     plt.show(block=False)
-    plt.figure()
+    plt.subplot(1, 2, 2)
     weed_locations = generate_realistic_weed_locations(0, 3, 0, 3, 3)
     plt.title("Realistically Distributed Weeds")
     plt.plot(weed_locations[0, :], weed_locations[1, :], 'rx')

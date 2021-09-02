@@ -12,9 +12,8 @@ import time
 class Main:
     def __init__(self):
         self.velocity = -0.5
-
         self.spraying_time = 0.5
-        self.weeds = generate_weed_locations(-3, 3, 5, 20, 0.3)
+        self.weeds = generate_weed_locations(-3, 3, 5, 40, 0.2)
         self.original_weeds = self.weeds.copy()
 
     def main(self):
@@ -32,25 +31,22 @@ class Main:
         start_time = time.time()
         motionPlanner = variableInterceptMotionPlanner(robot_def, self.weeds, self.velocity, start_state_xy, self.spraying_time, 10)
         total_trajectory, velocity_traj,total_time = motionPlanner.getTrajectory()
+        print(total_trajectory, velocity_traj, total_time)
         end_time = time.time()
-        print(velocity_traj)
-        print(motionPlanner.weighted_avgs)
-        #print(np.round(np.diff(total_time),4))
+        # Print
+        print(total_trajectory)
+        print(total_time)
+        print(np.round(np.diff(total_time),4))
         # Plot Joint Trajectories
         plotTrajectories(robot_def, total_trajectory, total_time)
         # Print Weeds Sprayed
         print("Sprayed: ",motionPlanner.getWeedsSprayed(),"/", self.weeds.shape[1], sep='')
         print("Generation Time (ms):", (end_time-start_time)/1000)
         print("Average Velocity:", np.mean(velocity_traj))
-        print("Runtime:", total_time[-1])
-        print(velocity_traj)
         # Draw
         draw = input("Draw? Y/N \n")
         if draw == 'y' or draw == 'Y':
-            start_time = time.time()
             robot_def.draw_robot(total_trajectory, self.original_weeds, velocity_traj)
-            end_time = time.time()
-            print("Execution Time:", (end_time-start_time)/1000)
             input()
         # Save
         np.save("trajectory", total_trajectory)
